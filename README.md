@@ -6,7 +6,7 @@ How To Play in this Game  ?
 
 - For each game play the player is entitled to 20 Launched.
 
-![KadaH](RandomGame/images/dice.png)
+![KadaH](WebContent/images/dice.png)
 
 This game use Random function in java 
 
