@@ -1,0 +1,96 @@
+@CHARSET "UTF-8";
+body{
+	background-image: url("images/90.jpg");
+	font-family: "Lobster", serif;
+	font-size: medium;
+}
+@font-face {
+    font-family: 'LobsterRegular';
+        src: url('/assets/fonts/lobster/7dc060d76bbb06e0662ddf250e526967/61bb8fc89f7f91dab8e66f92be958f82/LobsterRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+      }
+
+ /* The following rules are deprecated. */ 
+
+@font-face {
+    font-family: 'Lobster';
+        src: url('/assets/fonts/lobster/7dc060d76bbb06e0662ddf250e526967/61bb8fc89f7f91dab8e66f92be958f82/LobsterRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+      }
+
+
+
+.hall0{
+	width:64% ;
+	height:auto;
+	background-image:url("images/1.jpg");
+	box-shadow:3px black;
+	margin: 5% 20%;
+}
+.hall1{
+	width:64% ;
+	height:auto;
+	background-image:url("images/1.jpg");
+	box-shadow:3px black;
+	margin: 1% 20%;
+}
+.hall11{
+	width:64% ;
+	height:auto;
+	background-image:url("images/1.jpg");
+	box-shadow:3px black;
+	margin: 12% 20%;
+	
+}
+.hall9{
+		background-image:url("images/1.jpg");
+	
+}
+
+.insc{
+	padding-left: 15%;	
+
+}
+.hall2{
+	
+	padding : 2%;
+	text-align: center;
+	margin : 2% 0%;
+}
+.hall3{
+	
+	display: flex;
+	
+}
+.hall4{
+	margin-left:30% ;
+}
+.hall5{
+	margin-left:10% ;
+}
+.col {
+	color: white;
+}
+.big{
+	margin:4% 10%;
+	height: 700px;
+	max-height: 700px; 
+	
+}
+.bigg{
+	max-height: 700px; 
+	
+	overflow: scroll;
+}
+
+.w3-lobster {
+    font-family: "Lobster", serif;
+}
+.w3-allerta {
+  font-family: "Allerta Stencil", Sans-serif;
+}
+.butt{
+	margin:3% 30%;
+}
