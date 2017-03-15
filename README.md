@@ -20,3 +20,8 @@ This game use Random function in java
 
 - Then, each time we want a random number, we multiply the current seed by some fixed number, a, add another fixed number, c, then take the result modulo another fixed number, m. The number a is generally large. This method of random number generation goes back pretty much to the dawn of computing1. Pretty much every "casual" random number generator you can think of— from those of scientific calculators to 1980s home computers to currentday C and Visual Basic library functions— uses some variant of the above formula to generate its random numbers. 
 
+- Since for a given "current seed" value, the "next seed" will always be completely predictable based on that value, the series of numbers must repeat after at most m generations. This is called the period of the random number generator. In the case of java.util.Random, m is 248 and the other values have indeed been chosen so that the generator has its maximum period. Therefore:
+
+- The period of the java.util.Random generator is 248.
+
+- In decimal, 248 is a few hundred million million. That might sound like enough— and it is for certain applications— but it does mean some quite severe limitations in other cases. For example, consider an application where you pull out a number of 2-integer pairs (and where you use the full range of the integer). One integer has 232 possible values. So the number of possible combinations of 2-integer pairs is 232 * 232, or 264. In other words, java.util.Random will not be able to produce every possible combination. Of course, even a generator that produced "perfect" random numbers with a 248 period would have this limitation. 
